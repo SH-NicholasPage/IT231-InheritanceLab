@@ -1,0 +1,16 @@
+1, Apple, iPhone 12 Pro Max, 4, 1199.99, 2778x1284, 256 GB, 6 GB, A14 Bionic, 12 megapixels
+1, Samsung, Galaxy S22, 6, 799.49, 2240x1080, 128 GB, 8 GB, Qualcomm Snapdragon 8, 10 megapixels
+0, Dell, Inspiron 3511, 155, 449.99, 1920x1080, 15.6 inches, 256 GB, 8 GB, Intel 10th Generation Core i5
+3, Canon, EOS Rebel T7, 12, 599.99, CMOS, 24.1 megapixels, 1080p
+3, Canon, IVY CLIQ2, 8, 89.99, N/A, 9 megapixels, N/A
+2, iRobot, Roomba j7, 11, 599.99, 7 inches, no, black, 7.49 lbs
+2, iRobot, Roomba s9+, 9, 799.99, 9.5 inches, no, black, 8.15 lbs
+2, Shark, ION Robot Vacuum, 12, 249.99, 5.9 inches, yes, black/navy blue, 5.3 lbs
+4, Ninja, Air Fryer Max XL, 10, 159.99, yes, black/gray, air fry/roast/reheat/dehydrate
+0, Apple, MacBook Pro, 15, 949.99, 2560x1600, 13.3 inches, 256 GB, 8 GB, Apple M1
+0, Lenovo, Ideapad 1, 66, 529.99, 1920x1080, 15.6 inches, 512 GB, 12 GB, AMD Ryzen 7 5700U
+3, Nikon, D850, 49, 2799.99, CMOS, 45.7 megapixels, 2160p
+3, Polaroid, ISO48, 27, 49.99, CMOS, 16 megapixels, N/A
+3, Sony, DSC-W830, 49, 129.99, CCD, 20.1 megapixels, 720p
+4, Bella, Bella Pro Series, 149, 169.99, no, stainless steel, air fry/pizza/dehydrate/bake/reheat/roast/broil/keep warm/rotisserie
+4, Insignia, Insignia 5 Qt. Digitial Air Fryer, 24, 119.99, yes, stainless steel, air fry
