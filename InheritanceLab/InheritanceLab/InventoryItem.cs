@@ -8,11 +8,13 @@ namespace InheritanceLab
 {
     public class InventoryItem
     {
-        public float Price { get; set; }
+        //TODO: The other common properties go here!
+        public float Price { get; }//Can only be assigned to in a constructor in this class
 
         public virtual void DisplayItem()
         {
-            Console.WriteLine("[OVERRIDE ME IN ALL DERIVED CLASSES]");
+            //TODO: Implement the DisplayItem method
+            throw new NotImplementedException();
         }
     }
 }

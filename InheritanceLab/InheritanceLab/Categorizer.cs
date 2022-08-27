@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+* Name: [YOUR NAME HERE]
+* South Hills Username: [YOUR SOUTH HILLS USERNAME HERE]
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,13 +17,13 @@ namespace InheritanceLab
 
         public static void Categorize(ProductTypes productType, String brand, String title, int quantityOnHand, float price, List<String> miscAttributes)
         {
-            
+            //TODO: Create new objects based on the productType
         }
 
         public static List<InventoryItem> PerformBubbleSort()
         {
-
-            return InventoryItems;
+            //TODO: Bubble sort the InventoryList by Price. Return the sorted list when done.
+            return null!;
         }
     }
 }
