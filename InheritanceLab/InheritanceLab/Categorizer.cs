@@ -15,7 +15,7 @@ namespace InheritanceLab
     {
         public static List<InventoryItem> InventoryItems { get; private set; } = new List<InventoryItem>();
 
-        public static void Categorize(ProductTypes productType, String brand, String title, int quantityOnHand, float price, List<String> miscAttributes)
+        public static void Creator(ProductTypes productType, String brand, String title, int quantityOnHand, float price, List<String> miscAttributes)
         {
             //TODO: Create new objects based on the productType
         }

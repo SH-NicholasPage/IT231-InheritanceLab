@@ -36,7 +36,7 @@ namespace InheritanceLab
             {
                 String[] itemSplit = item.Split(",").Select(x => x.Trim()).ToArray();
                 List<String> miscAttributes = itemSplit.Skip(5).ToList();
-                Categorizer.Categorize((ProductTypes)int.Parse(itemSplit[0]), itemSplit[1], itemSplit[2], int.Parse(itemSplit[3]), float.Parse(itemSplit[4]), miscAttributes);
+                Categorizer.Creator((ProductTypes)int.Parse(itemSplit[0]), itemSplit[1], itemSplit[2], int.Parse(itemSplit[3]), float.Parse(itemSplit[4]), miscAttributes);
                 productTypeDistribution[int.Parse(itemSplit[0])]++;
             }
 
