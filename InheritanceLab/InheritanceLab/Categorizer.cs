@@ -17,7 +17,7 @@ namespace InheritanceLab
 
         public static void Creator(ProductTypes productType, String brand, String title, int quantityOnHand, float price, List<String> miscAttributes)
         {
-            //TODO: Create new objects based on the productType
+            //TODO: Create new objects based on the productType and store them in the InventoryItems list
         }
 
         public static List<InventoryItem> PerformBubbleSort()
