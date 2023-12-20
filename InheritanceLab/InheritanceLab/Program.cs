@@ -23,7 +23,7 @@ namespace InheritanceLab
 
     public class Program
     {
-        private static readonly int MAX_POINTS = 25;
+        private static readonly int MAX_POINTS = 15;
 
         public static void Main()
         {
@@ -67,8 +67,6 @@ namespace InheritanceLab
             }
 
             Console.WriteLine("Checking bubble sort...");
-
-            currentPoints -= CheckBubbleSort(5);
 
             Finalize(currentPoints);
         }
@@ -187,56 +185,6 @@ namespace InheritanceLab
             {
                 Console.Error.WriteLine("AirFryer display method has not been overridden!");
                 pointsLost += pointsLostForEach;
-            }
-
-            return pointsLost;
-        }
-
-        private static int CheckBubbleSort(int maxPointsToLose = 5)
-        {
-            int pointsLost = 0;
-
-            List<InventoryItem> linqSorted = null!;
-            List<InventoryItem> studentSortedList = null!;
-
-            if (Categorizer.InventoryItems != null)
-            {
-                linqSorted = Categorizer.InventoryItems.OrderByDescending(x => x.Price).ToList();
-                studentSortedList = Categorizer.PerformBubbleSort();
-            }
-            else
-            {
-                Console.Error.WriteLine("The InventoryItems list is null!");
-                return maxPointsToLose;
-            }
-
-            if (studentSortedList == null)
-            {
-                Console.Error.WriteLine("The list returned from the bubble sort was null!");
-                pointsLost = maxPointsToLose;
-            }
-            else if (studentSortedList!.Count != Categorizer.InventoryItems.Count)
-            {
-                Console.Error.WriteLine("List from bubble sort has a different amount of elements from the InventoryItems global.");
-                pointsLost = maxPointsToLose;
-            }
-            else
-            {
-                int pointsSubtracted = 0;
-
-                for (int i = 0; i < Categorizer.InventoryItems.Count; i++)
-                {
-                    if (linqSorted[i].Price != studentSortedList[i].Price)
-                    {
-                        pointsSubtracted++;
-                    }
-                }
-
-                if (pointsSubtracted > 0)
-                {
-                    Console.Error.WriteLine("The list was not sorted properly. There are still items out of order.");
-                    pointsLost += Math.Min(maxPointsToLose, pointsSubtracted);
-                }
             }
 
             return pointsLost;
