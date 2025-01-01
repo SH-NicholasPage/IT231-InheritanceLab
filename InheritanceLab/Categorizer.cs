@@ -14,7 +14,7 @@ namespace InheritanceLab
     public class Categorizer
     {
         //Add inventory items here after they are created
-        public static List<InventoryItem> InventoryItems { get; private set; } = new List<InventoryItem>();
+        public static List<InventoryItem> InventoryItems { get; private set; } = [];
 
         public static void Creator(ProductTypes productType, String brand, String title, int quantityOnHand, float price, List<String> miscAttributes)
         {
