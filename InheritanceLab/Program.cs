@@ -200,7 +200,10 @@ namespace InheritanceLab
             {
                 Environment.Exit(0);
             }
-            catch { }
+            catch 
+            {
+                Console.Error.WriteLine("Error terminating the program. Any additional output is not part of the grading process.");
+            }
         }
     }
 }
