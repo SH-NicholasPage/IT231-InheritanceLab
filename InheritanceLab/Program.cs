@@ -66,8 +66,6 @@ namespace InheritanceLab
                 item.DisplayItem();
             }
 
-            Console.WriteLine("Checking bubble sort...");
-
             Finalize(currentPoints);
         }
 
