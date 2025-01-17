@@ -191,7 +191,7 @@ namespace InheritanceLab
         private static void Finalize(float points)
         {
             points = Math.Max(points, 0);
-            Console.WriteLine("\n" + points + "/" + MAX_POINTS + " scored.");
+            Console.WriteLine($"{Environment.NewLine}{points}/{MAX_POINTS} scored.");
             Console.WriteLine((points / MAX_POINTS * 100).ToString("0.0") + "%");
 
             try
